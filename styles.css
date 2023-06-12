@@ -1,0 +1,178 @@
+ @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,400&family=Roboto:wght@400;500;900&display=swap');
+
+ /* font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+body{
+    background:linear-gradient(to right,pink,rgba(255, 192, 203, 0.722));
+    color:#0E2954;
+}
+
+h1,h2{
+ font-family: 'PT Serif', serif;
+ color:#0E2954;
+ font-size: 4rem;
+}
+
+h3,h4,h5,h6,p{
+font-family: 'Roboto', sans-serif;
+color:#164084;
+}
+
+.header-class{
+    min-height: 100vh;
+    /* background-color:pink; */
+}
+
+nav .navbar-nav li a{
+    color: #0E2954;
+    font-weight: 500;
+}
+
+span{
+    color:#ff0060;
+}
+
+.m-head h2{
+    font-size: 3rem;
+    font-family: 'PT Serif', serif;
+    color:#ff0060;
+}
+
+.m-head h3{
+    font-size: 3.1rem;
+    font-family: 'PT Serif', serif;
+    color: #0E2954;
+}
+
+.m-head p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.m-head .pink-btn{
+    background-color: #ff0060;
+    color:white;
+}
+
+.m-head .pink-btn:hover{
+    background-color: #e00f5f;
+    color:white;
+}
+
+.m-head .blue-btn{
+    background-color:white;
+    border:1px solid #0E2954;
+    color:#0E2954;
+}
+
+.m-head .blue-btn:hover{
+    background-color:rgb(218, 218, 218);
+    border:1px solid #0E2954;
+    color: #0E2954;
+}
+
+#about h2{
+    font-size: 3rem;
+    font-family: 'PT Serif', serif;
+    color:#0E2954;
+    font-weight: 700;
+}
+
+
+#about p{
+    font-size: 1.4rem;
+    color:#153e80;
+    font-weight: 500;
+}
+
+
+
+#features{
+    padding:2rem;
+    background-color: #0E2954;
+    color:white;
+    border-radius: 0% 60% 0 58%;
+}
+
+#about .pink-u{
+    border: 1px solid #ff0060;
+    color: #ff0060;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#about .pink-u:hover{
+    background-color: #ff0060;
+    color:white;
+}
+
+#testimonials{
+    padding:2rem;
+    color:#0E2954;
+}
+
+#testimonials h2{
+    font-size: 2.5rem;
+}
+
+#testimonials p{
+    font-weight: 500;
+}
+
+#pricing h2{
+    font-size: 3rem;
+    color:#0E2954;
+    padding: 1rem;
+}
+
+#pricing p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding:1rem;
+}
+
+#pricing h3{
+    font-size: 2rem;
+    color: white;
+    padding:0;
+    background-color: #ff0060;
+}
+
+footer{
+    background-color: #0E2954;
+    border-radius: 40% 90% 10% 0;
+    padding-top:10rem;
+    padding-bottom:0;
+    color:white;
+}
+
+#footer h5{
+    color:#ff0060;
+}
+
+#footer a{
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+#footer ul li a{
+    color:white;
+}
+
+#footer p{
+    color:#ffffff;
+    
+}
