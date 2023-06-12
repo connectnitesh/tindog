@@ -176,3 +176,13 @@ footer{
     color:#ffffff;
     
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: #e00f5f;
+    background-color: #ff0060;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
